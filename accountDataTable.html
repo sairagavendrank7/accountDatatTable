@@ -1,0 +1,13 @@
+
+<template>
+  <lightning-card  title="Apex LWC Call">
+     <c-account-custom-data-table 
+     key-field="Id" 
+     data={accList}  
+     columns={columnList}
+     draft-values={saveDraftValues}
+     onsave={handleSave}
+      ></c-account-custom-data-table >
+
+</lightning-card>
+</template>
